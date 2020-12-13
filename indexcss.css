@@ -1,0 +1,57 @@
+
+
+body {
+	background-color: lightblue;
+}
+h1 {
+	text-align: center;
+}
+#head { 
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	border: solid;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+} 
+#foot { 
+	color: white;
+	background-color: black;
+	text-align: center;
+	clear: both;
+}
+#interest {
+	float: left;
+	width: 50%;
+	margin: 0 5%;
+}
+#fam {
+	float: left;
+	width: 25%;
+	margin: 0 5% 0 0;
+}
+#interest, #fam{
+	text-indent: 1em; 
+	font-family: 'Iceland', cursive; 
+	background-color: aqua;
+	border-radius: 1em;
+	box-shadow: 6px 6px #666;
+	padding: 2em;
+	margin: 2em;
+	border: solid;
+	border-color: rgb(0, 206, 209);
+}
+a { 
+	text-decoration: none;
+	padding: 10px;
+}
+a:link { color: red; }
+a:visited { color: navy; }
+a:focus { background-color: yellow; }
+a:hover { background-color: yellow; }
+a:active { color: navy;}
+
